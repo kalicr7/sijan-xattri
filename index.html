@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="8848.png">
+    <title>sijan web</title>
+    <!-- <link rel="stylesheet" href="script.js"> -->
+    <link rel="icon" href="4s.png">
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">sijan-WEB</a>
+     <!-- <div class="vvv"><a href="#"></i> <i class="fa-sharp fa-solid fa-bars"></i></a></div> -->
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">contact</a>
+            <a href="gellary.html">gellary</a>
+            <a href="login.html">login</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="wrapper"> 
+                <div class="static-text"><h3> Hello It'me </h3></div>
+                <ul class="dynamic-texts">
+                    <li><span>Web Designer!</span></li>
+                    <li><span>Developer  !</span></li>
+                    <li><span>Programer  !</span></li>
+                    <li><span>Student!</span></li>
+                </ul>
+                <br>
+                <br>
+            </div>
+            <br>
+            <h1>SIJAN BUDHA</h1>
+            <br>
+            <p> Thanks  for visiting my website. 
+                I am a biginar on web Designing and i want to be a profesonal web designer.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100071617880306&mibextid=9R9pXO"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/sijanxattri?igshid=MTNiYzNiMzkwZA=="><i class="fa-brands fa-instagram"></i></a> 
+                <a href="https://wa.me/qr/QKS3FYMZWIDPC1"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1iIbRg-U89lzVJGjWwQHjZztB0bCR7r1U/view?usp=sharing" class="btn">View CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="777.png" alt="img">
+        </div>
+    </section>
+
+   <!---- about section design-->
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="777.png" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading"> About <span>Me</span></h2>
+        <br>
+        <br>
+        <h3>Frontend Developer</h3>
+        <br>
+        <br>
+        <p>My name is Sijan Budha. Actually i am from the beautiful place Ghodaghodi which lies in Kailali district. 
+            I am student of computer scince and my collage is SPA.
+            I am interested on web designing and coding also. I am biginar on coding. I would like to become a successful web dsigner in future. </p>
+            <br>
+            <br>
+    </div>
+   </section>
+
+   <!-- services section design -->
+
+   <section class="Services" id="services">
+   <h2 class="heading">Our <span>Services</span></h2>
+
+   <br>
+   <br>
+   <br>
+   <div class="services-container">
+    <div class="aaaaa-box">
+        <i class="fa-solid fa-code"></i>
+        <h3>Web Design</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            . Voluptatibus  similique aliquam 
+             voluptates accusamus!</p>
+             <a href="#" class="btn"> Read more</a>
+      </div>
+
+      <div class="aaaaa-box">
+        <i class="fa-solid fa-paintbrush"></i>
+        <h3>Graphic Design</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+            . Volu
+             voluptates accusamus!</p>
+             <a href="#" class="btn"> Read more</a>
+      </div>
+  
+      <div class="aaaaa-box">
+        <i class="fa-solid fa-chart-simple"></i>
+        <h3>Digital marketing</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+             voluptates accusamus!</p>
+             <a href="#" class="btn"> Read more</a>
+      </div>
+   </div>
+</section>
+
+<!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading"> Contact <span>Me!</span></h2>
+
+     <form action="https://formsubmit.co/el/dubexi" method="POST">
+        <div class="input-box">
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!-- footer section designe -->
+
+      <footer class="footer">
+         <div class="footer-text">
+             <p>Copyright &copy; 2024 by sijan | All Rights Reserved.</p>
+            </div>
+          <div class="zzz">
+            <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+         </div>
+      </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
+      <script>
+          /** creating button clicck show hide navbar**/
+           var togglebtn=document.querySelector(".togglebtn");
+          var nav=document.querySelector(".navlinks");
+         var links=document.querySelector(".navlinks li");
+  
+          togglebtn.addEventListener("click", function(){
+              this.classList.toggle("click");
+             nav.classList.toggle("open");
+          })
+  
+      var typed=new Typed(".input",{
+          Strings:["Frontend Developer","UX Designer", "Web Developer"],
+          typedSpeed:70,
+          backSpeed:55,
+          loop:true
+      })
+
+      alert('welcome to sijan web');
+      </script>
+      <style>
+        @import url('https://fonts.googlepis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+        
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+
+}
+
+:root{
+    --bg-color:#1f242d;
+    --second-bgcolor:#fff;
+        --text-color:hsl(219, 17%, 24%);
+        --main-color:#0ef;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+section
+{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+
+.header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header.sticky
+{
+    border-bottom: .1rem rgba(0,0,0, .2);
+}
+.logo
+{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+
+    transition: 0.3s; ;
+}
+.navbar a:hover,
+.navbar a.active
+{
+    color: var(--main-color);
+}
+.menu
+{
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+#menu-icon
+{
+    font-size: 3.6rem;
+    color: var(--text-color);
+    display: none;
+
+}
+.home
+{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img{
+    width: 30vw;
+    font-size: 2.2rem;
+    font-weight: 500;
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-2.4rem);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+.about-img img{
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-2.4rem);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 1.5rem;
+}
+
+.wrapper
+{
+    display: inline-flex;
+}
+
+.wrapper .static-texts
+{
+    color: #0ef;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.wrapper .dynamic-texts 
+{
+    margin-left:15px ;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.dynamic-texts li
+{
+    color: #0ef;
+    list-style: none;
+    font-size: 3.2rem;
+    font-weight:400;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4)infinite;
+}
+.static-text h3
+{
+    font-size: 3.2rem;
+    color: aliceblue;
+    font-weight: 700;
+}
+@keyframes slide
+{
+    100%{
+        top: -360px
+    }
+}
+
+.dynamic-texts li span
+{
+    position: relative;
+}
+.dynamic-texts li span::after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #1f242d;
+    border-left:2px solid #0ef ;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing
+{
+    100%
+    {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}
+
+span{
+    color: var(--main-color);
+
+}
+.home-content h1{
+    font-size: 90px;
+    line-height: 80px;
+    margin-left: -7px;
+    color: transparent;
+    -webkit-text-stroke:1px #fff;
+    background: url(back.png);
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back 
+{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.home-content p{
+    font-size: 2rem;
+    color: aliceblue;
+    color: rgb(231, 214, 167);
+}
+.social-media a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+background: transparent;
+border: .2rem solid var(--main-color);
+border-radius: 50%;
+font-size: 2rem;
+color: var(--main-color);
+margin: 3rem 1.5rem 3rem 0;
+transition: .5s ease;
+}
+
+.social-media a:hover
+{
+
+    background: var(--main-color);
+    color: var(--second-bgcolor);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+/* vdfbgtttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+.vvv i
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 3rem;
+    float: right;
+background: transparent;
+font-size: 2rem;
+color: #fff;
+margin: 3rem 1.5rem 3rem 0;
+}
+
+.btn
+{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius:4rem ;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-bgcolor);
+    letter-spacing: .3rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover
+{
+    box-shadow: none;
+}
+
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+.about-img img{
+    width: 25vw;
+
+}
+.heading
+{
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+.about-content h2
+{
+    text-align: left;
+    line-height: 1.2;
+    color: aliceblue;
+}
+
+.about-content h3
+{
+    font-size: 2.6rem;
+    color: aliceblue;
+}
+.about-content h3{
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke:1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back 
+{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.about-content p {
+    font-size: 2rem;
+    font-family: cursive;
+    color: rgb(231, 214, 167);
+}
+
+.services h2
+{
+    margin-bottom: 5rem;
+}
+
+h2
+{
+    color: aliceblue;
+}
+
+.services-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: aliceblue;
+}
+.services-container .aaaaa-box
+{
+    flex: 1 1 30rem;
+    background-color: #323946;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #1f242d;
+    transition: .5s ease;
+}
+.services-container .aaaaa-box:hover
+{
+    border-color: var(--main-color);
+    transform: scale(1.02s);
+}
+.aaaaa-box i{
+    font-size: 7rem;
+    color: var(--main-color);
+    
+}
+.aaaaa-box h3{
+    font-size: 2.6rem;
+}
+
+.aaaaa-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.contact h2
+{
+    margin-bottom: 3rem;
+}
+
+.aaaaa-box{
+    animation: floatImage 4s ease-in-out infinite;
+}
+@keyframes floatImage
+{
+    0%
+    {
+        transform: translateY(0);
+    }
+    50%
+    {
+        transform: translateY(-2.4rem);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+.contact form
+{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.contact form .input-box input,
+.contact form textarea
+{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color:#fff;
+    background: #a4a5a717;
+    border-radius:.8rem ;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input
+{
+    width: 49%;
+}
+
+ .contact form textarea
+ {
+    resize: none;
+ }
+
+ .contact form .btn
+ {
+    margin-top: 2rem;
+    cursor: pointer;
+ }
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #a4a5a717;
+    
+}
+
+.footer-text p
+{
+    font-size: 2rem;
+    font-family: cursive;
+    color: #fff;
+}
+
+.zzz a
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .8rem;
+    transition: .5s ease;
+}
+
+.zzz a:hover
+{
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
+.zzz a i
+{
+    font-size: 2.4rem;
+    color: #000000;
+}
+/* BREAKPOINTS */
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+
+    }
+}
+
+@media (max-width:991px) {
+    .header{
+        padding: 2rem 3%;
+
+    }
+    section {
+        padding: 10rem 3% 2rem;
+    }
+    .services
+    {
+        padding-bottom: 7rem;
+    }
+    .footer
+    {
+        padding: 2rem 3%;
+    }
+}
+
+@media (max-width:768px)
+{
+
+    .home
+    {
+        flex-direction: column;
+    }
+    .home-content h3
+    {
+        font-size: 2.6rem;
+    }
+    .home-content h1
+    {
+        font-size: 5rem;
+    }
+
+    .home-img img{
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .about
+    {
+        flex-direction: column-reverse;
+    }
+
+    .about img
+    {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .services h2 
+    {
+        margin-bottom: 3rem;
+    }
+
+}
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+
+    }
+
+    .contact form .input-box input
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    .home-img img {
+        width: 90vw;
+    }
+    .about-img img {
+        width: 90vw;
+    }
+    .footer {
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+      </style>
+</body>
+</html>
